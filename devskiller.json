@@ -1,0 +1,10 @@
+{
+  "readOnlyFiles" : [ "CalculatorSample.sln" ],
+  "verification" : {
+    "testNamePatterns" : [".*VerifyTests.*"],
+    "pathPatterns" : ["**VerifyTests**"],
+    "overwrite" : {
+		"CalculatorSample.VerifyTests/CalculatorSample.sln" : "CalculatorSample.sln"
+    }
+  }
+}
